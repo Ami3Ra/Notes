@@ -1,0 +1,29 @@
+.sidenav-bar {
+    padding: 10px;
+    background-color: #0C2D57;
+}
+
+.sidenav-bar ul {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidenav-bar ul > button:not(span) {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #FC6736;
+    border:  3px solid #FC6736;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    transition: all 0.3s;
+}
+
+.sidenav-bar ul > button:hover {
+    width: 100%;
+}
+
